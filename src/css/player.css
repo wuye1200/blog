@@ -1,0 +1,134 @@
+
+/*reset*/
+body{direction:rtl;}
+body { margin:0; padding:0; }
+div, form, input, select, ul, ol, li, p, h1, h2, h3, h4, h5, h6, p, dd, dt, dl { margin:0; padding:0; }
+ul, ol, li { list-style:none; }
+body, table, select, input { font-size:12px; color:#333; }
+img { border:none; }
+a { color:#333333; text-decoration:none; }
+a:hover { color:#c00; text-decoration:underline; }
+h1 { font-size: 16px; }
+h2, h3 { font-size: 14px; font-weight: normal; }
+h4, h5, h6 { font-size: 12px;font-weight: normal; }
+.fl { float:left; }
+.fr { float:right; }
+.w1200 .layout{width:1100px;}
+.w800 .layout{width:800px;}
+.layout{ margin:0 auto; width:1000px;}
+.layout:after ,.cf:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+.layout ,.cf { *zoom:1;}
+
+html,body{background: #fff;font-family: "JeFlat","Tahoma"; font-size: 14px; color: #073b87; }
+
+/** header **/
+.header{ width: 100%; height: 44px; background: #3543ae;box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.14),0px 4px 8px 0px rgba(0, 0, 0, 0.28);}
+.header .logo{ margin: 7px 17px 0 0  }
+.header .pic{float: left; position: relative; top:8px; margin: 0 0 0 40px;}
+.header .pic img{ border-radius: 42px; border:solid 2px #6f7ad0; }
+.header .login{ float: left; }
+.header .login .loginBtn{ background: #ff3275; width: 74px;height: 27px; border-radius: 5px; float: left; text-align: center; line-height: 27px; color: #fff;  margin: 8px 0 0 36px;}
+.header .share{ float: left; width: 21px;height: 21px; margin: 11px 0 0 10px; background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NEVGMTRERTlFNzY5MTFFNThCODVCMDQ4RDBCQkQ1OEEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NEVGMTRERUFFNzY5MTFFNThCODVCMDQ4RDBCQkQ1OEEiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo0RUYxNERFN0U3NjkxMUU1OEI4NUIwNDhEMEJCRDU4QSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo0RUYxNERFOEU3NjkxMUU1OEI4NUIwNDhEMEJCRDU4QSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PuflgW4AAADZSURBVHjaYvj//38zEP/8Tx0AMqeFEUj8YWBgEAHiDwyUA34gfgUy9D+QwchAPfCfXENlgVgBiNmB+D4Q30U2lAEaFgxEYnMgPo8WjlvQ1JBkqAAQv8YSORiGspDg5RBohILAXyDeBMSvgfgyZqgS79J2JNfNxqPuPxOZMfwGnyQx3gfFMshyASQxEFsJyn6HkcaJ8P4HArkojVreRwb30AWISfwXgJgXiIWQguALKDtC2U5A/JDcxI8c+0tpEft4waihtDH0LzS5UAOAktwvUBJooXYdBRBgAG5tJyhgCA3kAAAAAElFTkSuQmCC) no-repeat; }
+.header .share a{width: 21px; height: 21px; display: block;}
+.headNav{ position: relative; z-index: 10 }
+.headNav li{ line-height: 48px; font-size: 16px; float: right; margin: 5px 0 0 28px; position: relative;}
+.headNav li a{color: #3747ac}
+.headNav li dl{ position: absolute; display: none; width:1000px; top:38px; background: #fff; }
+.headNav li dd{float: right; margin-right: 10px;}
+
+/** tag **/
+.scrolTag{ border-top: solid 1px #d8d5d5; background: #f4f4f4; color: #7a7a7a; line-height: 32px; padding-right: 10px;}
+.scrolTag a{ color: #6466ba }
+
+/** main **/
+
+.section{width: 735px; float: right;}
+.section .banner{ margin:0 5px; overflow: hidden; text-align: center; }
+.section .banner img { width: 100%  }
+.w1200 .section{width: 835px; float: right;}
+.w800 .section{width: 800px; float: right;}
+
+
+/* player*/
+.player{ margin-left: 5px; }
+.player img {width: 100%}
+
+/* function */
+.funMod{background: #fff; margin: 5px; position: relative; }
+.funMod .hd{ font-size: 22px; line-height: 40px; padding-right: 18px; color: #171717 }
+.funMod .bd{height: 40px;}
+.funMod .like{float: left;}
+.funMod .like span{height: 24px; line-height: 24px; color: #c2c2c2; font-family: Tahoma;padding-right: 33px; cursor: pointer;}
+.funMod .like .d1{ float: left; background: url(http://www.ushahd.com/statics/image/201603/likeIcon.png) right top no-repeat;  margin: 0 15px 0 10px; }
+.funMod .like .d2{ float: left; background: url(http://www.ushahd.com/statics/image/201603/likeIcon.png) right -100px no-repeat;  }
+.funMod .like .view{ float: left; background: url(http://www.ushahd.com/statics/image/201603/likeIcon.png) right -200px no-repeat; margin: 0 20px 0 15px; }
+
+.funMod .share{ float: right; margin-right: 10px; }
+.funMod .share{width: 78px;height: 25px; background:url(http://www.ushahd.com/statics/image/201603/facebookIcon.png) right top no-repeat; display: block; margin-top: 3px;}
+.funMod .share span.icon{width: 78px;height: 42px; background:url(http://www.ushahd.com/statics/image/201603/likeIcon.png) left -296px no-repeat; display: block; }
+.funMod .share span.icon:hover{background:url(http://www.ushahd.com/statics/image/201603/likeIcon.png) left -392px no-repeat; display: block; }
+.funMod .shareBox{width: 610px;height: 55px; display: none; background: #eee; position: absolute; right: 55px; top:80px; z-index: 10; overflow: hidden;}
+.funMod .active .shareBox{ display: block; }
+.funMod .shareBox .copy{ width: 71px;height: 29px; line-height: 29px; color: #fff; background: #3543ae; text-align: center; float: left; margin:13px 0 0 20px; }
+.funMod .shareBox textarea{ width: 247px;height: 25px; border:solid 1px #ccc; line-height: 25px; background: #fff;float: left; margin:13px 0 0 10px; overflow: hidden; font-size: 12px; color: #939292 }
+.funMod .shareBox h2{ float: left;margin:22px 0 0 15px; font-size: 14px; color: #727272; }
+.funMod .shareBox .box{ float: left; margin:13px 10px 0 10px; }
+.funMod .follow{ float: right; position: relative; overflow: hidden;}
+.funMod .follow div{display: inline-block;}
+
+/* comment */
+.faceBookComment{ background: #fff; margin:5px 5px 0 5px; }
+.faceBookComment .hd{ line-height: 50px; color: #333; padding-right: 30px; font-size: 16px; }
+.faceBookComment .bd{ margin: 0 30px; }
+
+.side{ width: 260px; float: right; overflow: hidden;  }
+.w800 .side{ display: none; }
+.side .hd{border-bottom: solid 1px #e4e4e4; margin:0 10px; line-height: 30px;}
+.side .hd h2{color: #525252; font-size: 14px; }
+/* album */
+.album{margin: 0 0px 10px 0; background: #fff; }
+.album .bd{height: 350px; margin: 10px 10px 0 0 ; overflow-y:auto;}
+.album li{margin:0px 0 20px;overflow: hidden; width: 100%;}
+.album li img{ width: 96px; float: right; }
+.album li .txt{width: 100px; float: right; margin-right: 8px; display: inline-block;}
+.album li h2{ font-size: 13px; line-height: 18px; height: 36px; overflow: hidden; color: #4a4a4a; margin-bottom: 5px; }
+.album li p{color: #c2c2c2; background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAALCAYAAABLcGxfAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDEwNEM2NjJFNzZBMTFFNTlERjlFMEIzNkJFOEQzNjciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NDEwNEM2NjNFNzZBMTFFNTlERjlFMEIzNkJFOEQzNjciPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo0MTA0QzY2MEU3NkExMUU1OURGOUUwQjM2QkU4RDM2NyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo0MTA0QzY2MUU3NkExMUU1OURGOUUwQjM2QkU4RDM2NyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pu6Pvx4AAAEBSURBVHjaZJE9jwFRFIZnNlRk1QpqhZ5mim3QiqgkW4iPSiL6TfgBG0IjPn6CWkSyxYxo/Ae9RkRDFK7nJGdk2Js8895z7nvmnJlrG2Msf3mel0UGkNHUDtqO42x9j+0XYK4ic82vVPOqDYqmzwLMX+z/lCKH50BXKc4J5Ne267o2wQ0uJD7V1EXS+uYj8ZF9DMIfPH4gBB01p5AalGCvjSQWb086yNvDEIUIHKzXFYeTTABGqjw9SMDZ+r/EnNT9RgoaGgyZ94q24K50NPf7HE3+EmP1wcC3xEHIVfRsJHHwHpZIARYwkXmhDmVY0yn3cnFaNEaab98ww1z3g4cAAwBLDnyc7B6T7gAAAABJRU5ErkJggg==) right 3px no-repeat; padding-right: 15px; margin-right: 3px;}
+.album li a{text-decoration: none}
+/* ranking */
+.ranking{background: #fff; overflow: hidden;}
+.ranking .bd{ margin-top: 8px; }
+.ranking li{margin:0px 10px 10px 0; width: 100%; position: relative;}
+.ranking li img{ width: 109px; height: 62px; float: right; }
+.ranking li i{ background: url(http://www.ushahd.com/statics/image/201603/rankIcon.png) left -111px no-repeat; width: 19px;height: 19px; text-align: center; line-height: 19px; font-style: normal; color: #fff; font-family: Tahoma; margin-left: 4px; font-size: 10px; float: right;}
+.ranking li .txt{width: 100px; float: right; margin-right: 8px; display: inline-block;}
+.ranking li h2{ font-size: 13px; height: 36px; overflow: hidden; line-height: 18px; color: #4a4a4a; margin-bottom: 8px; }
+.ranking li p{color: #c2c2c2; background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAALCAYAAABLcGxfAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDEwNEM2NjJFNzZBMTFFNTlERjlFMEIzNkJFOEQzNjciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NDEwNEM2NjNFNzZBMTFFNTlERjlFMEIzNkJFOEQzNjciPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo0MTA0QzY2MEU3NkExMUU1OURGOUUwQjM2QkU4RDM2NyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo0MTA0QzY2MUU3NkExMUU1OURGOUUwQjM2QkU4RDM2NyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pu6Pvx4AAAEBSURBVHjaZJE9jwFRFIZnNlRk1QpqhZ5mim3QiqgkW4iPSiL6TfgBG0IjPn6CWkSyxYxo/Ae9RkRDFK7nJGdk2Js8895z7nvmnJlrG2Msf3mel0UGkNHUDtqO42x9j+0XYK4ic82vVPOqDYqmzwLMX+z/lCKH50BXKc4J5Ne267o2wQ0uJD7V1EXS+uYj8ZF9DMIfPH4gBB01p5AalGCvjSQWb086yNvDEIUIHKzXFYeTTABGqjw9SMDZ+r/EnNT9RgoaGgyZ94q24K50NPf7HE3+EmP1wcC3xEHIVfRsJHHwHpZIARYwkXmhDmVY0yn3cnFaNEaab98ww1z3g4cAAwBLDnyc7B6T7gAAAABJRU5ErkJggg==) right 3px no-repeat; padding-right: 15px; margin-right: 3px;}
+.ranking li a{text-decoration: none; color: #c2c2c2}
+.ranking li a:hover{color: #f00}
+.ranking li.p1 i ,.ranking li.p2 i ,.ranking li.p3 i{ background: url(http://www.ushahd.com/statics/image/201603/rankIcon.png) no-repeat;  width: 40px; height: 15px; position: absolute; right: -4px; top:45px; line-height: 15px; text-indent: -9999px;}
+.ranking li.p2 i{background-position: 0 -37px}
+.ranking li.p3 i{ background-position: 0 -72px }
+/* footNav */
+.w1200 .footNav{width: 1000px;}
+.w800 .footNav{width: 800px;}
+.footNav{ padding: 25px 0 10px;  }
+.footNav ul{ width:220px; float: left; padding: 15px 0; }
+.footNav ul.ul2{width: 475px; border-left: solid 1px #ccc;border-right: solid 1px #ccc; padding: 0 30px 0 0px; margin: 0 0 0 28px; }
+.footNav li{ width: 110px; float: right; line-height: 30px; color: #797979 }
+.footNav li a{ color: #797979 }
+.footNav ul.ul2 li{ text-indent: 20px; }
+.footNav .ft{ width: 100%; clear: both; text-align: center; color: #e1e1e1; line-height: 40px; }
+.footNav .ft a{color: #ff3573; margin: 0 10px;}
+.footer { height: 50px;background: #3747ac; box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.14),0px 4px 8px 0px rgba(0, 0, 0, 0.28);border-bottom: 4px #ff3676 solid; overflow: hidden;}
+.footer span.footer-copy {color: #fff; float: right;padding: 15px;}
+.footer span.footer-copy strong {font-weight: normal;color: #ff80ab;}
+.footshare{ float: left; margin: 20px 0 0 30px; }
+.footshare li{ float: left; width: 20px;height: 20px; background: url(http://www.ushahd.com/statics/image/201603/footshareIcon.png) no-repeat; margin: 0 10px; }
+.footshare li.lifacebook{  }
+.footshare li.litwitter{background: url(http://www.ushahd.com/statics/image/201603/footshareIcon.png) left -96px no-repeat;}
+.footshare li.liyoutube{background: url(http://www.ushahd.com/statics/image/201603/footshareIcon.png) left -195px no-repeat;}
+.footshare li a{ width: 20px;height: 20px; display: block; text-indent: -9999px; }
+
+/*  facebook */
+.icon.st_facebook_large .stLarge{width: 78px !important;height: 42px !important; opacity: 0 !important;}
+.icon.st_facebook_large .stLarge:hover{ opacity: 0 !important; }

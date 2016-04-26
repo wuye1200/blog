@@ -1,0 +1,5 @@
+{
+  "webpackCommonCss": "css/test/common.css",
+  "webpackLogo": "img/webpack.png",
+  "superabbitIndeximg":"img/material.png"
+}

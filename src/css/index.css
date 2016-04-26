@@ -1,0 +1,23 @@
+
+/*reset*/
+
+body { margin:0; padding:0; }
+div, form, input, select, ul, ol, li, p, h1, h2, h3, h4, h5, h6, p, dd, dt, dl { margin:0; padding:0; }
+ul, ol, li { list-style:none; }
+body, table, select, input { font-size:12px; color:#333; }
+img { border:none; }
+a { color:#333333; text-decoration:none; }
+a:hover { color:#c00; text-decoration:underline; }
+h1 { font-size: 16px; }
+h2, h3 { font-size: 14px; font-weight: normal; }
+h4, h5, h6 { font-size: 12px;font-weight: normal; }
+.fl { float:left; }
+.fr { float:right; }
+.w1200 .layout{width:1200px;}
+.w800 .layout{width:800px;}
+.layout{ margin:0 auto; width:1000px;}
+.layout:after ,.cf:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+.layout ,.cf { *zoom:1;}
+
+html,body{background: #fff;font-family: "JeFlat","Tahoma"; font-size: 14px; color: #073b87; }
+

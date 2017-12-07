@@ -7,5 +7,5 @@
 
 ## Node
 
-##Mobx
--[mobx PPT](https://ckinmind.github.io/mobx-share/#/p0)
+## Mobx
+-[mobx分享 PPT](https://ckinmind.github.io/mobx-share/#/p0)

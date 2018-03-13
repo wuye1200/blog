@@ -1,7 +1,7 @@
 ## React REDUX MOBX
 - [Redux compose and middleware 源码分析](https://github.com/asd0102433/redux-learn/issues/1)
 
--[mobx分享 PPT](https://ckinmind.github.io/mobx-share/#/p0)
+- [mobx分享 PPT](https://ckinmind.github.io/mobx-share/#/p0)
 
 
 ## Vue Vuex Router
@@ -12,7 +12,7 @@
 
 
 ##TypeScript
--[TypeScript官网](https://www.tslang.cn/samples/index.html)
+- [TypeScript官网](https://www.tslang.cn/samples/index.html)
 
 ## React native
 - [环境安装流程](http://blog.csdn.net/a2824256/article/details/53447467)

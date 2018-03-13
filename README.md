@@ -15,7 +15,7 @@
 - [TypeScript官网](https://www.tslang.cn/samples/index.html)
 
 ## Webpack
-- [Webpack](http://blog.csdn.net/a2824256/article/details/53447467)
+- [Webpack中文](https://fakefish.github.io/react-webpack-cookbook/index.html)
 
 ## React native
 - [环境安装流程](http://blog.csdn.net/a2824256/article/details/53447467)

@@ -20,3 +20,5 @@
 ## React native
 - [环境安装流程](http://blog.csdn.net/a2824256/article/details/53447467)
 
+## 概念
+- [从浏览器多进程到JS单线程，JS运行机制最全面的一次梳理](http://www.dailichun.com/2018/01/21/js_singlethread_eventloop.html)

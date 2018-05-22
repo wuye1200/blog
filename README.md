@@ -9,6 +9,8 @@
 
 
 ## Node
+- [淘宝NODE PPT 分享](http://2014.jsconf.cn/slides/herman-taobaoweb/index.html#/98)
+
 
 
 ##TypeScript

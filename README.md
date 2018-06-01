@@ -5,16 +5,21 @@
 
 
 ## React
-### REACT - [react 小书] (http://huziketang.mangojuice.top/books/react/lesson1)
+
+### REACT 
+- [react 小书](http://huziketang.mangojuice.top/books/react/lesson1)
+
 ### REDUX
 - [Redux compose and middleware 源码分析](https://github.com/asd0102433/redux-learn/issues/1)
+
 ### MOBX
 - [mobx分享 PPT](https://ckinmind.github.io/mobx-share/#/p0)
 
 
 ## Vue Vuex Router
+
 ### Vue
-- [剖析Vue原理&实现双向绑定MVVM] (https://segmentfault.com/a/1190000006599500)
+- [剖析Vue原理&实现双向绑定MVVM](https://segmentfault.com/a/1190000006599500)
 
 - [前后端分离之路 - Vue2项目多入口模板改造方案](http://thunf.me/2017/02/17/20170217-grace-vue-boilerplate/)
 

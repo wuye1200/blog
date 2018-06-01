@@ -1,15 +1,21 @@
 ## PHP
+### yii2
 - [yii2.0框架阅读代码)](https://www.cnblogs.com/xwzj/p/5389590.html)
 
 
 
-## React REDUX MOBX
+## React
+### REACT - [react 小书] (http://huziketang.mangojuice.top/books/react/lesson1)
+### REDUX
 - [Redux compose and middleware 源码分析](https://github.com/asd0102433/redux-learn/issues/1)
-
+### MOBX
 - [mobx分享 PPT](https://ckinmind.github.io/mobx-share/#/p0)
 
 
 ## Vue Vuex Router
+### Vue
+- [剖析Vue原理&实现双向绑定MVVM] (https://segmentfault.com/a/1190000006599500)
+
 - [前后端分离之路 - Vue2项目多入口模板改造方案](http://thunf.me/2017/02/17/20170217-grace-vue-boilerplate/)
 
 
@@ -29,6 +35,7 @@
 
 ## 概念
 - [从浏览器多进程到JS单线程，JS运行机制最全面的一次梳理](http://www.dailichun.com/2018/01/21/js_singlethread_eventloop.html)
+- [JS 函数式编程指南](https://llh911001.gitbooks.io/mostly-adequate-guide-chinese/content/ch3.html#%E8%BF%BD%E6%B1%82%E2%80%9C%E7%BA%AF%E2%80%9D%E7%9A%84%E7%90%86%E7%94%B1)
 
 ## HTML CSS
 ### 自适应和布局资料

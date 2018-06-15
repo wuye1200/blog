@@ -18,6 +18,9 @@
 - [剖析Vue原理&实现双向绑定MVVM](https://segmentfault.com/a/1190000006599500)
 
 - [前后端分离之路 - Vue2项目多入口模板改造方案](http://thunf.me/2017/02/17/20170217-grace-vue-boilerplate/)
+- [Vue技术内幕](http://hcysun.me/vue-design/art/2vue-constructor.html)
+
+
 
 
 ## Node

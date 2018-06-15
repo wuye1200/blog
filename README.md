@@ -46,4 +46,4 @@
 -[纯CSS3使用vw和vh视口单位实现自适应](http://caibaojian.com/vw-vh.html)
 
 ## blog
--[齐舞团](https://weekly.75team.com/)
+-[奇舞团](https://weekly.75team.com/)

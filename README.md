@@ -7,6 +7,7 @@
 
 ### REDUX
 - [Redux compose and middleware 源码分析](https://github.com/asd0102433/redux-learn/issues/1)
+- [Redux系列x：源码分析](https://www.chyingp.com/posts/redux-source-code-learning/)
 
 ### MOBX
 - [mobx分享 PPT](https://ckinmind.github.io/mobx-share/#/p0)

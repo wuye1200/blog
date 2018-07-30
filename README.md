@@ -42,6 +42,7 @@
 - [从浏览器多进程到JS单线程，JS运行机制最全面的一次梳理](http://www.dailichun.com/2018/01/21/js_singlethread_eventloop.html)
 - [JS 函数式编程指南](https://llh911001.gitbooks.io/mostly-adequate-guide-chinese/content/ch3.html#%E8%BF%BD%E6%B1%82%E2%80%9C%E7%BA%AF%E2%80%9D%E7%9A%84%E7%90%86%E7%94%B1)
 - [HTTP 缓存](https://blog.ymfe.org/HTTP-Cache/)
+- [HTTP 缓存机制一二三](https://zhuanlan.zhihu.com/p/29750583)
 - [前端性能优化](https://blog.ymfe.org/fe-performance-optimization/)
 
 

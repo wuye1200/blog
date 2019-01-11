@@ -1,7 +1,6 @@
 
-### VS Code
-必备插件
-功能性
+## VS Code
+### 必备插件
 
 [Auto Close Tag](https://link.juejin.im/?target=https%3A%2F%2Fmarketplace.visualstudio.com%2Fitems%3FitemName%3Dformulahendry.auto-close-tag)  : 匹配标签，关闭对应的标签。很实用【HTML/XML】
 
@@ -32,17 +31,17 @@
 [Output Colorizer](https://link.juejin.im/?target=https%3A%2F%2Fmarketplace.visualstudio.com%2Fitems%3FitemName%3DIBM.output-colorizer)  : 可以终端日志输出着色，实用
 
 
-代码片段插件
+### 代码片段插件
 
 [JavaScript (ES6) code snippets](https://link.juejin.im/?target=https%3A%2F%2Fmarketplace.visualstudio.com%2Fitems%3FitemName%3Dxabikos.JavaScriptSnippets)  : ES6的代码片段，实用
 
 [JavaScript Snippet Pack](https://link.juejin.im/?target=https%3A%2F%2Fmarketplace.visualstudio.com%2Fitems%3FitemName%3Dakamud.vscode-javascript-snippet-pack)   : ES5及以下的代码片段，实用
 
-语法校验
+### 语法校验
 
 [stylelint](https://link.juejin.im/?target=https%3A%2F%2Fmarketplace.visualstudio.com%2Fitems%3FitemName%3Dshinnn.stylelint) : 比内置的要全，更智能
 
-主题
+### 主题
 
 [Panda](https://link.juejin.im/?target=https%3A%2F%2Fmarketplace.visualstudio.com%2Fitems%3FitemName%3Dtinkertrain.theme-panda):用了相当久的一套颜色高亮，个人感觉很耐看
 

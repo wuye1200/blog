@@ -52,3 +52,5 @@
 -[奇舞团](https://weekly.75team.com/)
 -[去哪儿](https://ymfe.org/)
 
+## 收集
+-[技术年货：美团技术沙龙合辑大放送——85个演讲，70+小时视频](https://tech.meituan.com/2019/01/03/jishushalong.html)
